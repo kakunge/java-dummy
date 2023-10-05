@@ -7,7 +7,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.sql.*;
 
@@ -51,8 +50,6 @@ class LoginRequest {
 
     private String username;
     private String password;
-
-    // 기본 생성자, Getter 및 Setter 메서드
 
     public LoginRequest() {
     }
